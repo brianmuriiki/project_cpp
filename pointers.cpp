@@ -19,6 +19,9 @@ cout << "Name: " << name << endl; //used cout to print the new
 //memory size
 
 cout << "Size of name variable: " << sizeof(name) << " bytes" << endl; //used sizeof to get the size of the name variable
-    
+   //new
+string *ptr2 = new string; //used new operator to dynamically allocate memory for a string
+*ptr2 = "Hello"; //used dereference operator to assign a value to the dynamically
+ 
 return 0;
 }
