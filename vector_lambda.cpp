@@ -43,7 +43,7 @@ int main() {
             cout << "Name: " << stud.name
                  << " Score: " << stud.score
                  << " Grade: " << grade(stud.score)
-                 << " Age: " << stud.age << endl;ffff
+                 << " Age: " << stud.age << endl;
         }
     };
 
